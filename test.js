@@ -1,6 +1,6 @@
 var test = function (context, undefined) {
 
-    functio Test (value) {
+    function Test (value) {
         return !!!value;
     }
 
