@@ -1,27 +1,17 @@
 {
-  "name": "is",
+  "author": "Enrico Marino <enrico.marino@email.com> (onirame.no.de)",
+  "name": "prove",
   "description": "JavaScript light test library",
-  "homepage": "https://github.com/onirame/test",
-  "keywords": [
-    "util",
-    "test",
-    "assert",
-    "ok",
-    "server",
-    "client",
-    "browser"
-  ],
-  "author": "Enrico Marino <enrico.marino@email.com> (http://onirame.no.de)",
-  "contributors": [],
-  "dependencies": {},
+  "version": "0.0.0",
+  "homepage": "https://github.com/onirame/prove",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onirame/test.git"
+    "url": "git://github.com/onirame/prove.git"
   },
-  "main": "test.js",
-  "version": "0.0.0.alpha",
-  "devDependencies": {},
+  "main": "prove.js",
   "engines": {
     "node": "*"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }

@@ -1,11 +1,11 @@
-var test = function (context, undefined) {
+var prove = function (context, undefined) {
 
-    function Test (value) {
-        return !!!value;
+    function equal (value, exptected) {
+        return value == expected;
     }
 
     return {
-        Test: Test
+        equal: equal
     };
 
 }(this));
