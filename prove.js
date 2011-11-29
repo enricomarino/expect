@@ -1,6 +1,6 @@
-var prove = function (context, undefined) {
+var prove = (function (context, undefined) {
 
-    function equal (value, exptected) {
+    function equal (value, expected) {
         return value == expected;
     }
 
