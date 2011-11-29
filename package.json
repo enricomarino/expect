@@ -1,0 +1,27 @@
+{
+  "name": "is",
+  "description": "JavaScript light test library",
+  "homepage": "https://github.com/onirame/test",
+  "keywords": [
+    "util",
+    "test",
+    "assert",
+    "ok",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Enrico Marino <enrico.marino@email.com> (http://onirame.no.de)",
+  "contributors": [],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onirame/test.git"
+  },
+  "main": "test.js",
+  "version": "0.0.0.alpha",
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
