@@ -1,4 +1,4 @@
-var prove = (function (context, undefined) {
+var expect = (function (context, undefined) {
 
     function equal (value, expected) {
         return value == expected;

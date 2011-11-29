@@ -1,14 +1,14 @@
 {
   "author": "Enrico Marino <enrico.marino@email.com> (onirame.no.de)",
-  "name": "prove",
+  "name": "expect",
   "description": "JavaScript light test library",
   "version": "0.0.0",
-  "homepage": "https://github.com/onirame/prove",
+  "homepage": "https://github.com/onirame/expect",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onirame/prove.git"
+    "url": "git://github.com/onirame/expect.git"
   },
-  "main": "prove.js",
+  "main": "expect.js",
   "engines": {
     "node": "*"
   },
