@@ -53,7 +53,7 @@
    */
   
   expect.false = function (value, message) {
-    if (!!value) return;
+    if (!!!value) return;
     throw new Error(message);
   };
 
