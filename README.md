@@ -1,8 +1,6 @@
 # expect
 
-JavaScript essential test library 
-
-The essentials you expect from a test library
+the essential JavaScript test library 
 
 ## API
 
