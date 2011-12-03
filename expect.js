@@ -26,7 +26,7 @@
    */
   
   expect.deepEqual = function (value, expected, message) {
-    if (!!value) return;
+    if (value === expected) return;
     throw new Error(message);
   };
 
