@@ -1,8 +1,8 @@
 {
   "author": "Enrico Marino <enrico.marino@email.com> (onirame.no.de)",
   "name": "expect",
-  "description": "JavaScript light test library",
-  "version": "0.0.0",
+  "description": "the essential JavaScript test library",
+  "version": "0.0.2",
   "homepage": "https://github.com/onirame/expect",
   "repository": {
     "type": "git",
