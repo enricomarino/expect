@@ -1,75 +1,70 @@
 
-/*!
-* expect
-* the essential JavaScript test library
-* Copyright(c) 2011 Enrico Marino <enrico.marino@email.com>
-* MIT license
-*/
+/**
+ * expect
+ * the essential JavaScript test library
+ * 
+ * @copyright 2013 Enrico Marino
+ * @license MIT
+ */
 
-!(function (exports) {
+var expect = exports;
 
-  exports.expect = {};
+/**
+ * deep_equal
+ * Expect `value` to be deeply equal to `expected`
+ * 
+ * @param value
+ * @param expected
+ * @param {String} message
+ * @api public
+ */
 
-  /**
-   * Library version.
-   */
+expect.deep_equal = function (value, expected, message) {
+  if (value === expected) return;
+  throw new Error(message);
+};
 
-  expect.version = '0.0.2';
+/**
+ * equal
+ * Expect `value` to be equal to `expected`
+ * 
+ * @param value
+ * @param expected
+ * @param {String} message
+ * @api public
+ */
 
-  /**
-   * Expect 'value' is deep equal to 'expected'
-   * 
-   * @param value
-   * @param expected
-   * @param {String} message
-   * @api public
-   */
-  
-  expect.deepEqual = function (value, expected, message) {
-    if (value === expected) return;
-    throw new Error(message);
-  };
+expect.equal = function (value, expected, message) {
+  if (value == expected) return;
+  throw new Error(message);
+};
 
-  /**
-   * Expect 'value' is equal to 'expected'
-   * 
-   * @param value
-   * @param expected
-   * @param {String} message
-   * @api public
-   */
-  
-  expect.equal = function (value, expected, message) {
-    if (value == expected) return;
-    throw new Error(message);
-  };
+/**
+ * false
+ * Expect `value` to be `false`
+ * 
+ * @param value
+ * @param {String} message
+ * @api public
+ */
 
-  /**
-   * Expect 'value' is false
-   * 
-   * @param value
-   * @param {String} message
-   * @api public
-   */
-  
-  expect.false = function (value, message) {
-    if (!!!value) return;
-    throw new Error(message);
-  };
+expect.false = function (value, message) {
+  if (!!!value) return;
+  throw new Error(message);
+};
 
 
-  /**
-   * Expect 'value' is true
-   * 
-   * @param value
-   * @param {String} message
-   * @api public
-   */
-  
-  expect.ok =
-  expect.true = function (value, message) {
-    if (!!value) return;
-    throw new Error(message);
-  };
+/**
+ * true
+ * Expect `value` to be `true`
+ * 
+ * @param value
+ * @param {String} message
+ * @api public
+ */
 
-}(this));
+expect.ok = 
+expect.true = function (value, message) {
+  if (!!value) return;
+  throw new Error(message);
+};
