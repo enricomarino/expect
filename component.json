@@ -1,0 +1,11 @@
+{
+  "name": "expect",
+  "repo": "enricomarino/expect",
+  "description": "the essential JavaScript test library",
+  "version": "0.0.1",
+  "keywords": ["expect", "assert"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": ["index.js"]
+}
