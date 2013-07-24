@@ -1,14 +1,17 @@
 {
-  "author": "Enrico Marino <enrico.marino@email.com> (onirame.no.de)",
+  "author": {
+    "name": "Enrico Marino",
+    "url": "http://onirame.com"
+  },
   "name": "expect",
   "description": "the essential JavaScript test library",
   "version": "0.0.2",
-  "homepage": "https://github.com/onirame/expect",
+  "homepage": "https://github.com/enricomarino/expect",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onirame/expect.git"
+    "url": "git://github.com/enricomarino/expect.git"
   },
-  "main": "expect.js",
+  "main": "index.js",
   "engines": {
     "node": "*"
   },
